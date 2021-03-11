@@ -40,4 +40,4 @@ jobs:
           git config --global user.name "HiWebBot"
           git add .
           git commit -m 'Update menu'
-          git push
+          git push || true
