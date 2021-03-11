@@ -3,6 +3,8 @@ name: 'Update menu'
 on:
   schedule:
     - cron: '* * * * *'
+  push:
+    - master
 
 jobs:
   update:
