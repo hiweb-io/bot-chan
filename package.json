@@ -1,0 +1,16 @@
+{
+  "name": "bot-chan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hiweb-io/bot-chan.git",
+  "author": "Huy TQ <huy@huytq.com>",
+  "license": "MIT",
+  "scripts": {
+    "update-menu": "node src/update-menu.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-parse": "^4.15.3",
+    "voca": "^1.4.0"
+  }
+}
