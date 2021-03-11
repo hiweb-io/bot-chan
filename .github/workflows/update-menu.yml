@@ -38,5 +38,6 @@ jobs:
         run: |
           git config --global user.email "bot@hiweb.com"
           git config --global user.name "HiWebBot"
-          git commit -am 'Update menu'
+          git add .
+          git commit -m 'Update menu'
           git push
