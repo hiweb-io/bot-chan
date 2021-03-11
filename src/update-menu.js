@@ -12,5 +12,5 @@ const v = require('voca');
     },
   });
 
-  await fs.writeFile('data/menu.json', JSON.stringify(records[0]));
+  await fs.writeFile('data/menu.json', JSON.stringify(records));
 })()
