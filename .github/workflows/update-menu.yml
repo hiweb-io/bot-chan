@@ -2,7 +2,7 @@ name: 'Update menu'
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
   push:
     branches:
       - main
